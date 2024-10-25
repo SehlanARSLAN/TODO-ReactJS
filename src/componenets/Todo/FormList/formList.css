@@ -1,0 +1,50 @@
+.taskList{
+    width: 100%;
+}
+.taskItem{
+    margin: 5px 5px;
+    padding: 5px 40px 5px 30px;
+    position: relative;
+    background-color: rgba(255, 0, 0, 0.6);
+    letter-spacing: 2px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+.taskItem input{
+   position: absolute;
+   top: 50%;
+   left: 15px;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+}
+.cancelButton svg{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+}
+.itemListBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.itemLeft{
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+.itemListButtons{
+    display: flex;
+    gap: 5px;
+}
+.itemListButtons button{
+    padding: 3px;
+    background-color: transparent;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,24 @@
+.formContainer{
+    position: relative;
+    width: 50%;
+}
+.formContainer h1{
+   text-align: center;
+   color: rgba(255, 0, 0, 0.600);
+   margin-bottom: 30px;
+   font-size: 70px;
+}
+.inputWrapper {
+    position: relative;
+    width: 100%;
+}
+.inputIcon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+  .formContainer input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+  }
